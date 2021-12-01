@@ -1,0 +1,18 @@
+{
+    "title": "创建openEuler Playground章节与课程",
+    "description": "学习如何在openEuler Playground中创建新的章节与课程",
+    "icon": "openEuler",
+    "chapters": [
+      {
+        "chapter_id": "create-chapter",
+          "title": "创建openEuler Playground章节",
+          "description": "学习如何在openEuler Playground中创建新的章节"
+      },
+      {
+        "chapter_id": "create-course",
+          "title": "创建openEuler Playground课程",
+          "description": "学习如何在openEuler Playground中创建新的课程"
+      }
+    ]
+  }
+  
