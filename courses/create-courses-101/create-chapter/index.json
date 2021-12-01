@@ -1,0 +1,28 @@
+{
+  "title": "创建你的第一个openEuler Playground章节",
+  "description": "学习如何创建openEuler Playground章节",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - 章节结构",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - 语法",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}
