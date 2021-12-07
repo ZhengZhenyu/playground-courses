@@ -8,11 +8,11 @@ spec:
   runtime: lxd
   # [Generated] instance host subdomain, should be identical and url safe
   subdomain: {{ .Subdomain }}
-  image: "opensourceway/playground-lxc-launcher:sha-f6b536b"
+  image: "opensourceway/playground-lxc-launcher:sha-2b12023"
   storageSize: "10Gi"
   storageName: "default"
   ingressBandwidth: "10M"
-  egressBandwidth: "1M"
+  egressBandwidth: "100k"
   inactiveAfterSeconds: 0
   recycleAfterSeconds: 1800
   readinessProbe:
