@@ -12,6 +12,7 @@
 通过`git commit -m "<commit message>"`{{execute}}命令来将准备区域中的
 修改提交到仓库中。
 
-## 进阶提示
+## Tips
+
 每一个提交(Commit)都会被赋予一个`SHA-1`哈希值，以便用户使用其他命令来对其
 进行检索
