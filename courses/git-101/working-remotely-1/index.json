@@ -1,27 +1,23 @@
 {
-  "title": "提交文件",
-  "description": "学习如何初始化Git仓库并提交文件",
+  "title": "远端操作-1",
+  "description": "学习如何进行远端操作",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Git Init",
+        "title": "Step 1 - Git Diff",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Git Status",
+        "title": "Step 2 - Git Remote",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Git Add",
+        "title": "Step 3 - Git Commit",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Git Commit",
+        "title": "Step 4 - Git Push",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5 - Git Ignore",
-        "text": "step5.md"
       }
     ],
     "intro": {

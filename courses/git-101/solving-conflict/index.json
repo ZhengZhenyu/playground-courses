@@ -1,28 +1,29 @@
 {
-  "title": "远端操作",
-  "description": "学习如何进行远端操作",
+  "title": "解决冲突",
+  "description": "学习如何解决冲突",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Git Remote",
+        "title": "Step 1 - Git Branch & Checkout",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Git Push",
+        "title": "Step 2 - Git Commit",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Git Pull",
+        "title": "Step 3 - Set-upstream-to",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Git Log",
+        "title": "Step 4 - Solving Conflict",
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Git Fetch",
+        "title": "Step 5 - Git Rebase",
         "text": "step5.md"
       }
+      
     ],
     "intro": {
       "text": "intro.md"

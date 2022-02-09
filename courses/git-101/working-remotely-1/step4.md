@@ -10,4 +10,4 @@
 
 ## 任务
 
-使用`git push origin master`命令将提交推送到远端仓库。
+使用 `git push -u origin master` 命令将提交推送到远端仓库。

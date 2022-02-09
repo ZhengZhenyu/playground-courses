@@ -4,54 +4,24 @@
     "icon": "git",
     "chapters": [
       {
-        "chapter_id": "committing-files",
-          "title": "提交文件",
-          "description": "学习如何初始化Git仓库并提交文件"
-      },
-      {
         "chapter_id": "committing-changes",
           "title": "提交修改",
-          "description": "学习如何比较并提交修改"
+          "description": "学习如何初始化Git仓库并提交修改"
       },
       {
-        "chapter_id": "working-remotely",
-          "title": "远端操作",
-          "description": "学习如何进行远端操作"
+        "chapter_id": "working-remotely-1",
+          "title": "远端操作-1",
+          "description": "学习如何推送修改到远端仓库"
       },
       {
-        "chapter_id": "undo-changes",
-          "title": "取消修改",
-          "description": "学习如何取消修改"
+        "chapter_id": "working-remotely-2",
+          "title": "远端操作-2",
+          "description": "学习如何推送修改到远端仓库"
       },
       {
-        "chapter_id": "committing-changes",
-          "title": "提交修改",
-          "description": "学习如何比较并提交修改"
-      },
-      {
-        "chapter_id": "fix-merge-conflicts",
-          "title": "处理冲突",
-          "description": "学习如何处理提交中的冲突"
-      },
-      {
-        "chapter_id": "using-branches",
-          "title": "创建分支",
-          "description": "学习如何创建新的分支"
-      },
-      {
-        "chapter_id": "finding-bugs",
-          "title": "与Bug或Issue关联",
-          "description": "学习如何找到与某个提交相关的Bug或Issue"
-      },
-      {
-        "chapter_id": "pick-with-git",
-          "title": "tba",
-          "description": "学习如何从其他仓库中提取Commits"
-      },
-      {
-        "chapter_id": "rewrite-history",
-          "title": "修改提交历史",
-          "description": "学习如何从修改提交历史"
+        "chapter_id": "solving-conflict",
+          "title": "解决冲突",
+          "description": "学习如何解决冲突"
       }
     ]
   }
