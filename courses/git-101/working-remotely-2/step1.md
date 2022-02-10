@@ -2,7 +2,7 @@
 
 ## 任务
 
-执行 `cd /git-101/local-project/` 切换到新的目录
+执行 `cd /git-101/workspace/` 切换到新的目录
 
 执行 `git clone /git-101/remote-project/project_2` 克隆远端仓库到目录下。
 

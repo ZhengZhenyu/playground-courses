@@ -12,14 +12,14 @@
     `git checkout -b new_branch_2`
 
 3. 创建新文件 `file1` 并提交：
-    `echo 'This is file1' > file1`
+    `echo 'This is new_file1' > new_file1`
     `git add .`
-    `git commit -m 'Added File1'`
+    `git commit -m 'Added new_file1'`
 
 4. 创建新文件 `file2` 并提交：
-    `echo 'This is file2' > file2`
+    `echo 'This is new_file2' > new_file2`
     `git add .`
-    `git commit -m 'Added File2'`
+    `git commit -m 'Added new_file2'`
 
 5. 使用`git log`查看提交历史，可以看到产生了两次提交；
 6. 对于一些项目，维护者要求相关的commit需要合并到一个commit后再提交到上游仓库，使用下面的命令将最近的两次commit进行合并：
