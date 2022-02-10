@@ -1,6 +1,14 @@
 {
   "courses": [
-      "create-courses-101",
-      "git-101"
+      {
+        "id": "1",
+        "name": "create-courses-101",
+        "status": ["online", "test"]
+      },
+      {
+        "id": "2",
+        "name": "git-101",
+        "status": ["online", "test"]
+      }
   ]
 }
