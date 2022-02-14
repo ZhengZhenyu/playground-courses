@@ -9,6 +9,11 @@
         "id": "2",
         "name": "git-101",
         "status": ["online", "test"]
+      },
+      {
+        "id": "3",
+        "name": "make-and-packaging",
+        "status": ["online", "test"]
       }
   ]
 }
