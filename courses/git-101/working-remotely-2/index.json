@@ -1,0 +1,40 @@
+{
+  "title": "远端操作-2",
+  "description": "学习如何进行远端操作",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Git Clone",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Git Log",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Git Branch & Checkout",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Git Reset",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Git Revert",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "openEuler:2109"
+  }
+}
