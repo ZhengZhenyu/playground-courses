@@ -5,37 +5,34 @@
     "steps": [
       {
         "title": "Step 1 - Git Branch & Checkout",
-        "text": "step1.md"
+        "md_file": "step1.md"
       },
       {
         "title": "Step 2 - Git Commit",
-        "text": "step2.md"
+        "md_file": "step2.md"
       },
       {
         "title": "Step 3 - Set-upstream-to",
-        "text": "step3.md"
+        "md_file": "step3.md"
       },
       {
         "title": "Step 4 - Solving Conflict",
-        "text": "step4.md"
+        "md_file": "step4.md"
       },
       {
         "title": "Step 5 - Git Rebase",
-        "text": "step5.md"
+        "md_file": "step5.md"
       }
       
     ],
     "intro": {
-      "text": "intro.md"
+      "md_file": "intro.md"
     },
     "finish": {
-      "text": "finish.md"
+      "md_file": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
   "backend": {
-    "imageid": "openEuler:2109"
+    "imageid": "openEuler-20.03-lts-sp1"
   }
 }

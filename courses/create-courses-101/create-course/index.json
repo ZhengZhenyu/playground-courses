@@ -5,28 +5,25 @@
     "steps": [
       {
         "title": "Step 1 - 制定课程目录(1/2)",
-        "text": "step1.md"
+        "md_file": "step1.md"
       },
       {
         "title": "Step 2 - 制定课程目录(2/2)",
-        "text": "step2.md"
+        "md_file": "step2.md"
       },
       {
         "title": "Step 3 - 从其他课程中引用章节",
-        "text": "step3.md"
+        "md_file": "step3.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "md_file": "intro.md"
     },
     "finish": {
-      "text": "finish.md"
+      "md_file": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "openeuler-20.03-lts-sp1"
   }
 }
