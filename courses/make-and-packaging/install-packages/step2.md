@@ -20,7 +20,8 @@ RPM 全名 RPM Package Manager(http://rpm.org/)，是以一种数据库记录的
 
 ## 任务 
 
-1. 执行 <code exec="wget anglerpm-0.1-1.x86_64.rpm">wget anglerpm-0.1-1.x86_64.rpm</code> 下载rpm软件包。
+
+1. 执行 <code exec="wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1-1.x86_64.rpm">wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1-1.x86_64.rpm</code> 下载rpm软件包。
 
 2. 执行 <code exec="rpm -i anglerpm-0.1-1.x86_64.rpm">rpm -i anglerpm-0.1-1.x86_64.rpm</code> 安装rpm软件包。
 
