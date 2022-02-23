@@ -4,8 +4,8 @@
 
 ## 任务
 
-执行 `git branch new_branch` 创建一个新的分支`new_branch`。
+执行 <code exec="git branch new_branch">git branch new_branch</code>创建一个新的分支`new_branch`。
 
-执行 `git branch` 查看所有分支。
+执行 <code exec="git branch">git branch</code> 查看所有分支。
 
-执行 `git checkout new_branch` 切换到新创建的分支。
+执行 <code exec="git checkout new_branch">git checkout new_branch</code> 切换到新创建的分支。

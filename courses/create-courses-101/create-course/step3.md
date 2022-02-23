@@ -2,7 +2,7 @@ openEuler Playground课程还可以引用其他现有openEuler Playground中的�
 
 可以通过使用下面的定义方式进行章节重用:
 
-<pre class="file">
+```
 {
     ...
     chapters:[
@@ -15,6 +15,6 @@ openEuler Playground课程还可以引用其他现有openEuler Playground中的�
         ...
     ]
 }
-</pre>
+```
 
 这样就可以从`reusable-course`中引用`test-chapter`章节，如果该章节没有被包含在任何章节中，请将`course_id`留空。

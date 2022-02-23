@@ -2,4 +2,4 @@
 
 ## 任务 
 
-执行 `git init` 在当前目录下初始化Git仓库
+执行 <code exec="git init">git init</code> 在当前目录下初始化Git仓库
