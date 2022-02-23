@@ -4,7 +4,7 @@
 
 ## 任务 
 
-1. 执行 `vim Makefile` 为项目创建 `Makefile`。
+1. 执行 <code exec="vim Makefile">vim Makefile</code> 为项目创建 `Makefile`。
 
 2. 在键盘上点击 `a` 或 `i` 或 `s` 进入编辑模式。
 

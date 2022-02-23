@@ -2,7 +2,7 @@
 
 ## 任务
 
-1. 执行 `vim Makefile` 再次打开`Makefile`文件。
+1. 执行 <code exec="vim Makefile">vim Makefile</code> 再次打开`Makefile`文件。
 
 2. 使用键盘上的方向键将光标移动到文件的结尾。
 
@@ -22,9 +22,9 @@
 
 6. 执行：
 
-    `make clean` 清除所有 `*.o` 文件
+    <code exec="make clean">make clean</code> 清除所有 `*.o` 文件
 
-    `ls -l` 观察目录结果
+    <code exec="ls -l">ls -l</code> 观察目录结果
 
 7. 返回课程目录：
-    执行 `cd ..`
+    执行 <code exec="cd ..">cd ..</code>

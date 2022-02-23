@@ -4,16 +4,16 @@
 
 将源文件编译为目标文件：
 
-`gcc -c hello.c thanks.c`
+<code exec="gcc -c hello.c thanks.c">gcc -c hello.c thanks.c</code>
 
-通过 `ls -l` 观察目录变化， `*.o` 是上一条命令编译产生的新文件。
+通过 <code exec="ls -l">ls -l</code> 观察目录变化， `*.o` 是上一条命令编译产生的新文件。
 
 将 `hello.o` 与 `thanks.o` 共同编译成可执行文件 `thanks` :
-`gcc -o thanks hello.o thanks.o`
+<code exec="gcc -o thanks hello.o thanks.o">gcc -o thanks hello.o thanks.o</code>
 
-执行 `./thanks` 并观察运行结果
+执行 <code exec="./thanks">./thanks</code> 并观察运行结果
 
-执行 `cd ..` 返回到课程主目录
+执行 <code exec="cd ..">cd ..</code> 返回到课程主目录
 
 ## Tips
 

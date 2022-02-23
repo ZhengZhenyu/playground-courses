@@ -4,6 +4,6 @@
 
 ## 任务
 
-使用 `git log` 命令查看我们克隆下来的项目的提交历史。
+使用 <code exec="git log">git log</code> 命令查看我们克隆下来的项目的提交历史。
 
-使用 `git show <commit id>` 命令来查看某次提交的具体修改内容(`<>`内的内容请根据实际情况进行修改)。
+使用 <code exec="git show 'commit id'">git show 'commit id'</code> 命令来查看某次提交的具体修改内容(`' '`内的内容请根据实际情况进行修改)。

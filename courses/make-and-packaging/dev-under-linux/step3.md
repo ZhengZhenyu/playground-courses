@@ -11,11 +11,11 @@ Linux 下常用的是 GUN 组织开发的 GCC，Linux 发行版通常都自带 G
 
 执行：
 
-`gcc hello.c -o hello`
+<code exec="gcc hello.c -o hello">gcc hello.c -o hello</code>
 
-执行 `ls -l` 查看当前目录，可以看到生成了名为 `hello` 的可执行文件。
+执行 <code exec="ls -l">ls -l</code> 查看当前目录，可以看到生成了名为 `hello` 的可执行文件。
 
-执行 `./hello` 运行该可执行文件并查看运行结果。
+执行 <code exec="./hello">./hello</code> 运行该可执行文件并查看运行结果。
 
 
 ## Tips
