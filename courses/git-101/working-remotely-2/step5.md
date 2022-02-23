@@ -4,7 +4,9 @@
 
 使用下面的命令回退最新的一次提交：
 
-`git revert HEAD --no-edit`
+<pre>
+<code exec="git revert HEAD --no-edit">git revert HEAD --no-edit</code>
+</pre>
 
 ## Tips
 

@@ -15,18 +15,18 @@ Linux开源软件通常有多种发布形式，其中最基本的发布方式是
 
 我们将上一章的示例代码以Tarball形式进行了发布，依次执行下面的命令完成 `angle` 的安装。
 
-1. 执行 `cd chapter3` 进入章节目录
+1. 执行 <code exec="cd chapter3">cd chapter3</code> 进入章节目录
 
-2. 执行 `ls -l` 查看当前目录中的文件情况
+2. 执行 <code exec="ls -l">ls -l</code> 查看当前目录中的文件情况
 
-3. 执行 `tar -xzvf angle-0.1.tar.gz` 将Tarball进行解压缩
+3. 执行 <code exec="tar -xzvf angle-0.1.tar.gz">tar -xzvf angle-0.1.tar.gz</code> 将Tarball进行解压缩
 
-4. 执行 `cd angle && ls -l` 进入项目源码目录并查看目录内容，可以看到目录有包含项目源码的 `src` 文件夹、说明文件 `README.md` 以及若干其他文件
+4. 执行 <code exec="cd angle && ls -l">cd angle && ls -l</code> 进入项目源码目录并查看目录内容，可以看到目录有包含项目源码的 `src` 文件夹、说明文件 `README.md` 以及若干其他文件
 
-5. 执行 `mkdir build && cd build` 创建 `build` 文件夹并进入，这样做的好处是可以保持原项目目录的整洁
+5. 执行 <code exec="mkdir build && cd build">mkdir build && cd build</code> 创建 `build` 文件夹并进入，这样做的好处是可以保持原项目目录的整洁
 
-6. 执行 `../configure` 进行项目配置，这个操作会启动对系统依赖、配置等的自动检查和配置，并生成针对于当前主机的 `Makefile` ，有关 `Makefile` 的内容我们已经在前面的章节中介绍过。由于软件开发者与使用者的实际环境可能存在不一致的情况(架构不同、软件版本不同等等)，因此对于复杂的项目使用工具根据使用者环境的实际情况生成 `Makefile` 是最为合理的
+6. 执行 <code exec="../configure">../configure</code> 进行项目配置，这个操作会启动对系统依赖、配置等的自动检查和配置，并生成针对于当前主机的 `Makefile` ，有关 `Makefile` 的内容我们已经在前面的章节中介绍过。由于软件开发者与使用者的实际环境可能存在不一致的情况(架构不同、软件版本不同等等)，因此对于复杂的项目使用工具根据使用者环境的实际情况生成 `Makefile` 是最为合理的
 
-7. 执行 `make && make install` 完成项目的编译和安装
+7. 执行 <code exec="make && make install">make && make install</code> 完成项目的编译和安装
 
-8. 执行 `angle` 并与程序进行交互
+8. 执行 <code exec="angle">angle</code> 并与程序进行交互

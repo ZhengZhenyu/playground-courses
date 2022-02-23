@@ -7,8 +7,8 @@
 
 执行下面的命令，创建一个文件并写入内容：
 
-`echo 'This is a new line' > conflict_file`
+<code exec="echo 'This is a new line' > conflict_file">echo 'This is a new line' > conflict_file</code>
 
-`git add .`
+<code exec="git add .">git add .</code>
 
-`git commit -m '<commit message>'`
+<code exec="git commit -m 'commit message'">git commit -m 'commit message'</code>

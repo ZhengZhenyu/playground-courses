@@ -45,11 +45,11 @@ SPEC文件是指导 `rpmbuild` 工作的配置文件，通常包含了该软件�
 
 ## 任务
 
-1. 执行 `rm -f /usr/local/bin/anglerpm` 删除上一节中完成安装的软件。
+1. 执行 <code exec="rm -f /usr/local/bin/anglerpm">rm -f /usr/local/bin/anglerpm</code> 删除上一节中完成安装的软件。
 
-2. 执行 `cd /root/rpmbuild/SOURCES/ && wget xxx.tar.gz` 下载Tarball软件包并放置到 `SOURCES` 目录下。
+2. 执行 <code exec="cd /root/rpmbuild/SOURCES/ && wget xxx.tar.gz">cd /root/rpmbuild/SOURCES/ && wget xxx.tar.gz</code> 下载Tarball软件包并放置到 `SOURCES` 目录下。
 
-3. 执行 `cd /root/rpmbuild/SPECS/ && vim anglerpm.spec` 创建并开始编辑spec文件。
+3. 执行 <code exec="cd /root/rpmbuild/SPECS/ && vim anglerpm.spec">cd /root/rpmbuild/SPECS/ && vim anglerpm.spec</code> 创建并开始编辑spec文件。
 
 4. 按照以下内容编辑 `anglerpm.spec`, 其中`changelog`部分请根据实际情况填写 :
     ```
@@ -89,13 +89,13 @@ SPEC文件是指导 `rpmbuild` 工作的配置文件，通常包含了该软件�
 
     ```
 
-5. 执行 `rpm -ba anglerpm.spec` 开始制作rpm软件包
+5. 执行 <code exec="rpm -ba anglerpm.spec">rpm -ba anglerpm.spec</code> 开始制作rpm软件包
 
-6.  执行 `cd /root/rpmbuild/RPMS/x86_64 && ls -l` 进入到生成目录并查看内容。
+6. 执行 <code exec="cd /root/rpmbuild/RPMS/x86_64 && ls -l">cd /root/rpmbuild/RPMS/x86_64 && ls -l</code> 进入到生成目录并查看内容。
 
-7. 执行 `rpm -i anglerpm-0.1-1.x86_64.rpm` 尝试安装新构建完成的rpm软件包。
+7. 执行 <code exec="rpm -i anglerpm-0.1-1.x86_64.rpm">rpm -i anglerpm-0.1-1.x86_64.rpm</code> 尝试安装新构建完成的rpm软件包。
 
-8. 执行 `anglerpm` 运行并与程序交互。
+8. 执行 <code exec="anglerpm">anglerpm</code> 运行并与程序交互。
 
 ## Tips
 

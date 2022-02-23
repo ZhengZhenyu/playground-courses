@@ -20,7 +20,7 @@
         "md_file": "step4.md"
       }
     ],
-    "intro": {
+    "introduction": {
       "md_file": "intro.md"
     },
     "finish": {
@@ -28,6 +28,6 @@
     }
   },
   "backend": {
-    "imageid": "openEuler-20.03-lts-sp1"
+    "image_id": "openEuler-20.03-lts-sp1"
   }
 }
