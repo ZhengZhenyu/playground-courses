@@ -2,7 +2,7 @@
 
 ## 任务 
 
-1. 执行 `vim hello.c` 创建并打开一个新的名为`hello.c`的C语言程序代码文件。
+1. 执行 <code exec="vim hello.c">vim hello.c</code> 创建并打开一个新的名为`hello.c`的C语言程序代码文件。
 
 2. 在键盘上点击 `a` 或 `i` 或 `s` 进入编辑模式。
 

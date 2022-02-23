@@ -3,11 +3,12 @@
 ## 任务
 
 删除上一步中产生的 `*.o` 文件：
-`rm -f *.o`
 
-执行 `make` 进行编译，此时 make 会读取 makefile 的内容，并根据内容直接编译相关的文件
+<code exec="rm -f *.o">rm -f *.o</code>
 
-执行 `./main` 并与程序进行交互，查看程序执行结果。
+执行 <code exec="make">make</code> 进行编译，此时 make 会读取 makefile 的内容，并根据内容直接编译相关的文件
+
+执行 <code exec="./main">./main</code> 并与程序进行交互，查看程序执行结果。
 
 ## Tips
 

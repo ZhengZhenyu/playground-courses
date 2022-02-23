@@ -3,9 +3,9 @@
 
 ## 任务
 
-1. 执行 `cd chapter2` 进入章节目录
+1. 执行 <code exec="cd chapter2">cd chapter2</code> 进入章节目录
 
-2. 执行 `ls -l` 查看当前目录中的文件情况:
+2. 执行 <code exec="ls -l">ls -l</code> 查看当前目录中的文件情况:
 
     可以看到执行文档里面包含了 4 个源码文件，分别是 `main.c`、 `hello.c`、 `sin_value.c` 和 `cos_value.c` :
 
@@ -19,11 +19,11 @@
 
 3. 编译项目：
     
-    执行 `gcc -c main.c hello.c sin_value.c cos_value.c` 进行目标文件的编译，最终会有 4 个 *.o 的文件出现.
+    执行 <code exec="gcc -c main.c hello.c sin_value.c cos_value.c">gcc -c main.c hello.c sin_value.c cos_value.c</code> 进行目标文件的编译，最终会有 4 个 *.o 的文件出现.
 
-    执行 `gcc -o angle_cal main.o hello.o sin_value.o cos_value.o -lm` 连结所有目标文件为执行文件，并加入 libm 的函数，产生名为 `angle_cal` 的执行文件
+    执行 <code exec="gcc -o angle_cal main.o hello.o sin_value.o cos_value.o -lm">gcc -o angle_cal main.o hello.o sin_value.o cos_value.o -lm</code> 连结所有目标文件为执行文件，并加入 libm 的函数，产生名为 `angle_cal` 的执行文件
 
 4. 执行程序并与程序进行交互，查看程序执行结果：
 
-    执行 `./angle_cal`
+    执行 <code exec="./angle_cal">./angle_cal</code>
 
