@@ -28,6 +28,6 @@
     }
   },
   "backend": {
-    "imagei_d": "openEuler-20.03-lts-sp1"
+    "image_id": "openEuler-20.03-lts-sp1"
   }
 }
