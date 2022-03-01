@@ -47,7 +47,7 @@ SPEC文件是指导 `rpmbuild` 工作的配置文件，通常包含了该软件�
 
 1. 执行 <code exec="rm -f /usr/local/bin/anglerpm">rm -f /usr/local/bin/anglerpm</code> 删除上一节中完成安装的软件。
 
-2. 执行 <code exec="cd /root/rpmbuild/SOURCES/ && wget xxx.tar.gz">cd /root/rpmbuild/SOURCES/ && wget xxx.tar.gz</code> 下载Tarball软件包并放置到 `SOURCES` 目录下。
+2. 执行 <code exec="cd /root/rpmbuild/SOURCES/ && wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1.tar.gz">cd /root/rpmbuild/SOURCES/ && wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1.tar.gz</code> 下载Tarball软件包并放置到 `SOURCES` 目录下。
 
 3. 执行 <code exec="cd /root/rpmbuild/SPECS/ && vim anglerpm.spec">cd /root/rpmbuild/SPECS/ && vim anglerpm.spec</code> 创建并开始编辑spec文件。
 
