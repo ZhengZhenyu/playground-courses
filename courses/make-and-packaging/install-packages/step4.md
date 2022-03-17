@@ -49,7 +49,7 @@ SPEC文件是指导 `rpmbuild` 工作的配置文件，通常包含了该软件�
 
 2. 执行 <code exec="cd /root/rpmbuild/SOURCES/ && wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1.tar.gz">cd /root/rpmbuild/SOURCES/ && wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1.tar.gz</code> 下载Tarball软件包并放置到 `SOURCES` 目录下。
 
-3. 执行 <code exec="cd /root/rpmbuild/SPECS/ && vim anglerpm.spec">cd /root/rpmbuild/SPECS/ && vim anglerpm.spec</code> 创建并开始编辑spec文件。
+3. 执行 <code exec="cd /root/rpmbuild/SPECS/ && vi anglerpm.spec">cd /root/rpmbuild/SPECS/ && vi anglerpm.spec</code> 创建并开始编辑spec文件。
 
 4. 按照以下内容编辑 `anglerpm.spec`, 其中`changelog`部分请根据实际情况填写 :
     ```
@@ -89,7 +89,7 @@ SPEC文件是指导 `rpmbuild` 工作的配置文件，通常包含了该软件�
 
     ```
 
-5. 执行 <code exec="rpm -ba anglerpm.spec">rpm -ba anglerpm.spec</code> 开始制作rpm软件包
+5. 执行 <code exec="rpmbuild -ba anglerpm.spec">rpm -ba anglerpm.spec</code> 开始制作rpm软件包
 
 6. 执行 <code exec="cd /root/rpmbuild/RPMS/x86_64 && ls -l">cd /root/rpmbuild/RPMS/x86_64 && ls -l</code> 进入到生成目录并查看内容。
 
