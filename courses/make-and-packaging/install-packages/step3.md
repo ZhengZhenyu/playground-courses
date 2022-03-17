@@ -7,7 +7,7 @@ DNF(Dandified YUM)就是RPM软件包体系下的这样一款工具，DNF通过�
 
 ## 任务
 
-1. 执行 <code exec="vim /etc/yum.repos.d/openEuler.repo">vim /etc/yum.repos.d/openEuler.repo</code>创建并编辑yum repo配置文件。
+1. 执行 <code exec="vi /etc/yum.repos.d/openEuler-2109.repo">vi /etc/yum.repos.d/openEuler-2109.repo</code>创建并编辑yum repo配置文件。
 
 2. 按照下面的内容进行配置，该命令将会创建一条指向 `openEuler-21.09 Everything` 软件仓库的配置：
 

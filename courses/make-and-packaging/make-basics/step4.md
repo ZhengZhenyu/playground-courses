@@ -2,7 +2,7 @@
 
 ## 任务
 
-1. 执行 <code exec="vim Makefile">vim Makefile</code> 再次打开`Makefile`文件。
+1. 执行 <code exec="vi Makefile">vi Makefile</code> 再次打开`Makefile`文件。
 
 2. 使用键盘上的方向键将光标移动到文件的结尾。
 
