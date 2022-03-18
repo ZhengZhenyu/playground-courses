@@ -2,4 +2,6 @@
 
 ## 任务 
 
+执行 <code exec="cd /workspace/project_1/">cd /workspace/project_1/</code> 进入本章工作目录
+
 执行 <code exec="git init">git init</code> 在当前目录下初始化Git仓库
