@@ -2,7 +2,7 @@
 
 ## 任务
 
-执行 <code exec="cd /git-101/workspace/">cd /git-101/workspace/</code> 切换到新的目录
+执行 <code exec="cd /home/coder/git-101/workspace/">cd /git-101/workspace/</code> 切换到新的目录
 
 执行 <code exec="git clone /git-101/remote-project/project_2">git clone /git-101/remote-project/project_2</code> 克隆远端仓库到目录下。
 

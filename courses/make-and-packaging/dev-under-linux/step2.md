@@ -2,6 +2,9 @@
 
 ## 任务 
 
+进入工作目录进行下一步学习：
+<code exec="cd chapter1">cd chapter1</code>
+
 1. 执行 <code exec="vi hello.c">vi hello.c</code> 创建并打开一个新的名为`hello.c`的C语言程序代码文件。
 
 2. 在键盘上点击 `a` 或 `i` 或 `s` 进入编辑模式。
