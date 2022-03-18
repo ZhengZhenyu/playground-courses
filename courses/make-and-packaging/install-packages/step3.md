@@ -7,7 +7,7 @@ DNF(Dandified YUM)就是RPM软件包体系下的这样一款工具，DNF通过�
 
 ## 任务
 
-1. 执行 <code exec="vi /etc/yum.repos.d/openEuler-2109.repo">vi /etc/yum.repos.d/openEuler-2109.repo</code>创建并编辑yum repo配置文件。
+1. 执行 <code exec="sudo vi /etc/yum.repos.d/openEuler-2109.repo">sudo vi /etc/yum.repos.d/openEuler-2109.repo</code>创建并编辑yum repo配置文件。
 
 2. 按照下面的内容进行配置，该命令将会创建一条指向 `openEuler-21.09 Everything` 软件仓库的配置：
 
@@ -21,6 +21,6 @@ DNF(Dandified YUM)就是RPM软件包体系下的这样一款工具，DNF通过�
 
     ```
 
-3. 执行 <code exec="dnf update">dnf update</code> 刷新目录
+3. 执行 <code exec="sudo dnf update">dnf update</code> 刷新目录
 
-4. 执行 <code exec="dnf install -y bc">dnf install -y bc</code> ，可以看到 `bc` 和它所需要的依赖被一并安装了。
+4. 执行 <code exec="sudo dnf install -y bc">dnf install -y bc</code> ，可以看到 `bc` 和它所需要的依赖被一并安装了。

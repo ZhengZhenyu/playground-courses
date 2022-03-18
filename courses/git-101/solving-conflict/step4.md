@@ -5,7 +5,7 @@
 
 执行 <code exec="git status">git status</code> 查看当前目录的状态，输出中将会包含存在冲突的文件。
 
-执行 <code exec="vim conflict_file">vim conflict_file</code> 打开存在冲突的文件，并手动解决冲突，文件内容应如下图所示：
+执行 <code exec="vi conflict_file">vi conflict_file</code> 打开存在冲突的文件，并手动解决冲突，文件内容应如下图所示：
 
 ![avatar](../assets/conflict.bmp)
 

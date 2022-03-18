@@ -27,6 +27,8 @@ Linux开源软件通常有多种发布形式，其中最基本的发布方式是
 
 6. 执行 <code exec="../configure">../configure</code> 进行项目配置，这个操作会启动对系统依赖、配置等的自动检查和配置，并生成针对于当前主机的 `Makefile` ，有关 `Makefile` 的内容我们已经在前面的章节中介绍过。由于软件开发者与使用者的实际环境可能存在不一致的情况(架构不同、软件版本不同等等)，因此对于复杂的项目使用工具根据使用者环境的实际情况生成 `Makefile` 是最为合理的
 
-7. 执行 <code exec="make && make install">make && make install</code> 完成项目的编译和安装
+7. 执行 <code exec="make">make</code> 完成项目的编译
 
-8. 执行 <code exec="angle">angle</code> 并与程序进行交互
+8. 执行 <code exec="sudo make install">sudo make install</code> 完成项目的安装
+
+9. 执行 <code exec="angle">angle</code> 并与程序进行交互

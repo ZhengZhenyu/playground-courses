@@ -17,6 +17,3 @@
 <code exec="gcc --version">gcc --version</code>
 <code exec="vi --version">vi --version</code>
 </pre>
-
-进入工作目录进行下一步学习：
-<code exec="cd chapter1">cd chapter1</code>
