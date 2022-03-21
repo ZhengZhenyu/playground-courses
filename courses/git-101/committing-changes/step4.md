@@ -4,7 +4,7 @@
 
 运行下面的命令，创建你的第一个提交(提交untracked到仓库)，`' '`中的内容请自行替换。
 
-<code exec="git commit -m 'your commit message'">git commit -m 'your commit message</code>
+<code exec="git commit -m 'your commit message'">git commit -m 'your commit message'</code>
 
 运行 <code exec="git log">git log</code> 查看最新的提交记录。
 
