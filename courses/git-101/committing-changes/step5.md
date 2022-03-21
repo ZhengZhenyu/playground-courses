@@ -4,7 +4,7 @@
 
 运行下面的命令为你的Git目录创建`.gitignore`文件：
 
-<code exec="echo '*.tmp' > .gitignore">echo '*.tmp' > .gitignore</code>
+<code exec="echo '*.tmp' > .gitignore">echo '*.tmp' > .gitignore'</code>
 
 <code exec="git add .gitignore">git add .gitignore</code>
 
