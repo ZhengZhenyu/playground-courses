@@ -19,7 +19,7 @@ DNF(Dandified YUM)就是RPM软件包体系下的这样一款工具，DNF通过�
     baseurl=http://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/$basearch/
     enabled=1
     gpgcheck=1
-    gpgkey=http://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-21.03-LTS-SP1/everything/$basearch/RPM-GPG-KEY-openEuler
+    gpgkey=http://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/$basearch/RPM-GPG-KEY-openEuler
 
     ```
 
