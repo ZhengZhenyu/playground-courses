@@ -2,6 +2,6 @@
 
 ## 任务 
 
-执行 <code exec="cd /home/coder/git-101/workspace/project_1/">cd cd /home/coder/git-101/workspace/project_1/</code> 进入本章工作目录
+执行 <code exec="cd /home/coder/git-101/workspace/project_1/">cd /home/coder/git-101/workspace/project_1/</code> 进入本章工作目录
 
 执行 <code exec="git init">git init</code> 在当前目录下初始化Git仓库
