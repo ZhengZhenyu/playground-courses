@@ -35,6 +35,6 @@ RPM 全名 RPM Package Manager(http://rpm.org/)，是以一种数据库记录的
     <code exec="wget https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/x86_64/Packages/mariadb-server-10.3.9-9.oe1.x86_64.rpm">wget https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/x86_64/Packages/mariadb-server-10.3.9-9.oe1.x86_64.rpm</code>
     </pre>
 
-6. 执行 <code exec="sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm">sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm/code> 尝试安装这个rpm
+6. 执行 <code exec="sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm">sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm</code> 尝试安装这个rpm
 
 可以看到安装失败了，因为软件 `mariadb-server` 有其他依赖，但是在我们的系统中并没有安装这些依赖，如果要正常安装，则需要先安装完这些依赖的软件。对于庞大且复杂的软件来说，软件的依赖可能达到上百款，同时依赖又有自己的依赖，手动完成软件依赖的查找和安装几乎是不可能完成的任务。
