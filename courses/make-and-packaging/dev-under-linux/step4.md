@@ -2,7 +2,7 @@
 
 ## 任务
 
-1. 执行 <code exec="vi hello.c">vi hello.c</code> 再次打开 `hello.c` C语言程序代码文件，我们将以这个程序作为主程序。
+1. 执行 `[[vi hello.c]]{{RUN}}` 再次打开 `hello.c` C语言程序代码文件，我们将以这个程序作为主程序。
 
 2. 使用键盘上的方向键将光标移动到 `}` 一行的结尾。
 
@@ -20,7 +20,7 @@ int main(void){
 
 5. 在键盘上点击 `ESC` ，然后输入 `:wq` 保存并退出Vim编辑器
 
-6. 执行 <code exec="vi thanks.c">vi thanks.c</code> 创建并打开一个新的名为`thanks.c`的C语言程序代码文件，我们将以这个程序作为子程序。
+6. 执行 `[[vi thanks.c]]{{RUN}}` 创建并打开一个新的名为`thanks.c`的C语言程序代码文件，我们将以这个程序作为子程序。
 
 7. 在键盘上点击 `a` 或 `i` 或 `s` 进入编辑模式。
 

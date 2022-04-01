@@ -2,11 +2,11 @@
 
 ## 任务
 
-执行 <code exec="cd /home/coder/git-101/workspace/">cd /home/coder/git-101/workspace/</code> 切换到新的目录
+执行 `[[cd /home/coder/git-101/workspace/]]{{RUN}}` 切换到新的目录
 
-执行 <code exec="git clone /home/coder/git-101/remote-project/project_2">git clone /home/coder/git-101/remote-project/project_2</code> 克隆远端仓库到目录下。
+执行 `[[git clone /home/coder/git-101/remote-project/project_2]]{{RUN}}` 克隆远端仓库到目录下。
 
-执行 <code exec="cd project_2">cd project_2</code> 进入到刚刚克隆的项目中。
+执行 `[[cd project_2]]{{RUN}}` 进入到刚刚克隆的项目中。
 
 ## Tips
 

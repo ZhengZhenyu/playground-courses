@@ -9,30 +9,30 @@
 依次运行下面的命令，并观察系统的输出：
 
 1. 添加一个新文件：
-    <pre>
-    <code exec="echo 'This is a new file' > new_file">echo 'This is a new file' > new_file</code>
-    <code exec="git add new_file">git add new_file</code>
-    </pre>
+    ```
+    [[echo 'This is a new file' > new_file]]{{RUN}}
+    [[git add new_file]]{{RUN}}
+    ```
 
 2. 查看当前状态：
-    <pre>
-    <code exec="git status">git status</code>
-    </pre>
+    ```
+    [[git status]]{{RUN}}
+    ```
 
 3. 回退暂存区修改，并查看状态：
-    <pre>
-    <code exec="git reset">git reset</code>
-    <code exec="git status">git status</code>
-    </pre>
+    ```
+    [[git reset]]{{RUN}}
+    [[git status]]{{RUN}}
+    ```
 
 4. 修改现有文件，并将新增文件提交到暂存区：
-    <pre>
-    <code exec="echo 'This is a new line' > old_file">echo 'This is a new line' > old_file</code>
-    <code exec="git add .">git add .</code>
-    </pre>
+    ```
+    [[echo 'This is a new line' > old_file]]{{RUN}}
+    [[git add .]]{{RUN}}
+    ```
 
 5. 回退所有修改，并查看状态：
-    <pre>
-    <code exec="git reset --hard">git reset --hard</code>
-    <code exec="git status">git status</code>
-    </pre>
+    ```
+    [[git reset --hard]]{{RUN}}
+    [[git status]]{{RUN}}
+    ```

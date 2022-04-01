@@ -20,21 +20,21 @@ RPM 全名 RPM Package Manager(http://rpm.org/)，是以一种数据库记录的
 
 ## 任务 
 
-1. 执行 <code exec="cd /home/coder/make-and-packaging/chapter3/">cd /home/coder/make-and-packaging/chapter3/</code> 返回章节目录。
+1. 执行 `[[cd /home/coder/make-and-packaging/chapter3/]]{{RUN}}` 返回章节目录。
 
-2. 执行 <code exec="wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1-1.x86_64.rpm">wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1-1.x86_64.rpm</code> 下载rpm软件包。
+2. 执行 `[[wget https://github.com/opensourceways/playground-courses/releases/download/v0.1/anglerpm-0.1-1.x86_64.rpm]]{{RUN}}` 下载rpm软件包。
 
-3. 执行 <code exec="sudo rpm -i anglerpm-0.1-1.x86_64.rpm">sudo rpm -i anglerpm-0.1-1.x86_64.rpm</code> 安装rpm软件包。
+3. 执行 `[[sudo rpm -i anglerpm-0.1-1.x86_64.rpm]]{{RUN}}` 安装rpm软件包。
 
-4. 执行 <code exec="anglerpm">anglerpm</code> 并与程序交互，查看安装结果
+4. 执行 `[[anglerpm]]{{RUN}}` 并与程序交互，查看安装结果
 
 可以看到使用 `rpm` ，可以仅用一条命令就完成我们编写的软件的安装，非常方便，那么对于更复杂的软件呢？
 
 5. 执行下面的命令，下载openEuler 20.03 LTS SP1中的 `mariadb-server-10.3.9` :
-    <pre>
-    <code exec="wget https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/x86_64/Packages/mariadb-server-10.3.9-9.oe1.x86_64.rpm">wget https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/x86_64/Packages/mariadb-server-10.3.9-9.oe1.x86_64.rpm</code>
-    </pre>
+    ```
+    `[[wget https://mirrors.tuna.tsinghua.edu.cn/openeuler/openEuler-20.03-LTS-SP1/everything/x86_64/Packages/mariadb-server-10.3.9-9.oe1.x86_64.rpm]]{{RUN}}`
+    ```
 
-6. 执行 <code exec="sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm">sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm</code> 尝试安装这个rpm
+6. 执行 `[[sudo rpm -i mariadb-server-10.3.9-9.oe1.x86_64.rpm]]{{RUN}}` 尝试安装这个rpm
 
 可以看到安装失败了，因为软件 `mariadb-server` 有其他依赖，但是在我们的系统中并没有安装这些依赖，如果要正常安装，则需要先安装完这些依赖的软件。对于庞大且复杂的软件来说，软件的依赖可能达到上百款，同时依赖又有自己的依赖，手动完成软件依赖的查找和安装几乎是不可能完成的任务。

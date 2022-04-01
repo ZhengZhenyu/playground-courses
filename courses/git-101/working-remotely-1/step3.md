@@ -2,4 +2,4 @@
 
 ## 任务
 
-使用 <code exec="git commit -a -m 'your commit message'">git commit -a -m 'your commit message'</code> 将前两步所作的修改提交到Git本地目录。
+使用 `[[git commit -a -m 'your commit message']]{{RUN}}`   将前两步所作的修改提交到Git本地目录。
