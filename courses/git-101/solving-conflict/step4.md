@@ -3,9 +3,9 @@
 
 ## 任务
 
-执行 <code exec="git status">git status</code> 查看当前目录的状态，输出中将会包含存在冲突的文件。
+执行 `[[git status]]{{RUN}}` 查看当前目录的状态，输出中将会包含存在冲突的文件。
 
-执行 <code exec="vi conflict_file">vi conflict_file</code> 打开存在冲突的文件，并手动解决冲突，文件内容应如下图所示：
+执行 `[[vi conflict_file]]{{RUN}}` 打开存在冲突的文件，并手动解决冲突，文件内容应如下图所示：
 
 ![avatar](../assets/conflict.bmp)
 
@@ -16,8 +16,8 @@
 通过vim编辑器完成冲突解决后，需要重新使用`git add`将存在冲突的文件添加到
 暂存区域进行跟踪。执行下面的命令完成操作：
 
-<code exec="git add .">git add .</code>
+`[[git add .]]{{RUN}}`
 
-<code exec="git commit">git commit</code>
+`[[git commit]]{{RUN}}`
 
-<code exec="git merge">git merge</code>
+`[[git merge]]{{RUNc}}`

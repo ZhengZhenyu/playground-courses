@@ -6,14 +6,14 @@
 
 使用`which`命令来检查所要用到的软件是否在环境中正确安装与配置。
 
-<pre>
-<code exec="which gcc">which gcc</code>
-<code exec="which vi">which vi</code>
-</pre>
+```
+[[which gcc]]{{RUN}}
+[[which vi]]{{RUN}}
+```
 
 使用下面命令来检查所要用到的软件版本是否满足你的开发需求。
 
-<pre>
-<code exec="gcc --version">gcc --version</code>
-<code exec="vi --version">vi --version</code>
-</pre>
+```
+[[gcc --version]]{{RUN}}
+[[vi --version]]{{RUN}}
+```

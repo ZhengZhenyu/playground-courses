@@ -4,11 +4,11 @@
 
 运行下面的命令为你的Git目录创建`.gitignore`文件：
 
-<code exec="echo '*.tmp' > .gitignore">echo '*.tmp' > .gitignore'</code>
+`[[echo '*.tmp' > .gitignore]]{{RUN}}`
 
-<code exec="git add .gitignore">git add .gitignore</code>
+`[[git add .gitignore]]{{RUN}}`
 
-<code exec="git commit -m 'add .gitigonre file">git commit -m 'add .gitigonre file</code>
+`[[git commit -m 'add .gitigonre file']]{{RUN}}`
 
 ## Tips
 

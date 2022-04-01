@@ -7,10 +7,10 @@ NOTE: 本章节工作依赖前一章节所作操作，请确保《第三章：�
 
 ## 任务
 
-执行 <code exec="cd /home/coder/git-101/workspace/project_2">cd /home/coder/git-101/workspace/project_2</code>进入工作目录。
+执行 `[[cd /home/coder/git-101/workspace/project_2]]{{RUN}}` 进入工作目录。
 
-执行 <code exec="git branch new_branch">git branch new_branch</code>创建一个新的分支`new_branch`。
+执行 `[[git branch new_branch">git branch new_branch]]{{RUN}}` 创建一个新的分支 `new_branch`。
 
-执行 <code exec="git branch">git branch</code> 查看所有分支。
+执行 `[[git branch]]{{RUN}}` 查看所有分支。
 
-执行 <code exec="git checkout new_branch">git checkout new_branch</code> 切换到新创建的分支。
+执行 `[[git checkout new_branch]]{{RUN}}` 切换到新创建的分支。

@@ -1,0 +1,16 @@
+{
+    "title": "openEuler Playground: 在浏览器中体验openEuler",
+    "description": "openEuler Playground: 在浏览器中体验openEuler",
+    "logo": "./assets/logo.jpg",
+    "poster": "./assets/poster.png",
+    "cover": "./assets/cover.png",
+    "container_live_time": "120",
+    "chapters": [
+      {
+        "content_dir": "playground",
+        "title": "openEuler Playground: 在浏览器中体验openEuler",
+        "description": "openEuler Playground: 在浏览器中体验openEuler",
+        "estimated_time": "120 min"
+      }
+    ]
+  }

@@ -2,13 +2,13 @@
 
 ## 任务
 
-运行 <code exec="echo 'This is a new line' > untracked">echo 'This is a new line' > untracked</code> 对该文件进行修改。
+运行 `[[echo 'This is a new line' > untracked]]{{RUN}}` 对该文件进行修改。
 
-运行 <code exec="echo 'This is a new file' > new_file">echo 'This is a new file' > new_file</code> 创建一个新的文件并写入内容。
+运行 `[[echo 'This is a new file' > new_file]]{{RUN}}` 创建一个新的文件并写入内容。
 
-运行 <code exec="git add new_file">git add new_file</code> 将新文件添加到暂存区域。
+运行 `[[git add new_file]]{{RUN}}` 将新文件添加到暂存区域。
 
-运行 <code exec="git diff">git diff</code> 及 <code exec="git diff --staged">git diff --staged</code> 并观察结果
+运行 `[[git diff]]{{RUN}}` 及 `[[git diff --staged]]{{RUN}}` 并观察结果
 
 
 
