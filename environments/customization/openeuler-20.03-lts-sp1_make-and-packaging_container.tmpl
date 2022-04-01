@@ -8,7 +8,7 @@ spec:
   runtime: lxd
   # [Generated] instance host subdomain, should be identical and url safe
   subdomain: {{ .Subdomain }}
-  image: "opensourceway/playground-lxc-launcher:sha-2b12023"
+  image: "opensourceway/playground-lxc-launcher:sha-e5a5aea"
   storageSize: "10Gi"
   storageName: "default"
   ingressBandwidth: "10M"
@@ -44,10 +44,12 @@ spec:
     - name: GOTTY_PROCESS_WORKING_DIR
       value: "/home/coder/make-and-packaging"
     # env for lxd launcher
-    - name: LAUNCHER_ADDITIONAL_CONFIG #keep
-      value: raw.lxc=lxc.apparmor.profile=unconfined,security.nesting=false
+    # - name: LAUNCHER_ADDITIONAL_CONFIG #keep
+    #  value: raw.lxc=lxc.apparmor.profile=unconfined,security.nesting=false
     - name: LAUNCHER_INSTANCE_PROFILES #keep
       value: container
+    - name: LAUNCHER_PROCESS_RESOURCE
+      value: "10"
     - name: LAUNCHER_IMAGE_ALIAS #keep
       value: makepackage-openeuler20.03-lts-sp3-container-x86
     # env for terminal
