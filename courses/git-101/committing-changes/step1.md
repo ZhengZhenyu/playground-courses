@@ -2,11 +2,11 @@
 
 ## 任务
 
-通过下面的命令来配置Git, `< >`中的内容根据实际情况进行替换。
+通过下面的命令来配置Git, `" "`中的内容根据实际情况进行替换。
 
-`[[git config --global user.name]]{{PRINT}} <your name>`
+`[[git config --global user.name]]{{PRINT}} "your name"`
 
-`[[git config --global user.email]]{{PRINT}} <your email>`
+`[[git config --global user.email]]{{PRINT}} "your email"`
 
 ## Tips
 

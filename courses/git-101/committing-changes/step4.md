@@ -2,9 +2,9 @@
 
 ## 任务
 
-运行下面的命令，创建你的第一个提交(提交untracked到仓库)，`< >`中的内容请自行替换。
+运行下面的命令，创建你的第一个提交(提交untracked到仓库)，`" "`中的内容请自行替换。
 
-`[[git commit -m]]{{PRINT}} <your commit message>`
+`[[git commit -m]]{{PRINT}} "your commit message"`
 
 运行 `[[git log]]{{RUN}}` 查看最新的提交记录。
 
