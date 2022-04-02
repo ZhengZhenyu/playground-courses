@@ -3,7 +3,7 @@ NOTE: 本章节工作依赖前一章节所作操作，请确保《第三章：�
 
 在进行接下来的操作前，我们首先创建需要创建一个新的分支并切换到这个分支。
 
-可以使用 `git branch <branch name>` 来创建新的分支，使用 `git checkout <branch name>` 来在不同的分支之间进行切换。同时，`git checkout -b <branch name>` 可以直接创建一个新的分支并切换到该分支。
+可以使用 `git branch "branch name"` 来创建新的分支，使用 `git checkout "branch name"` 来在不同的分支之间进行切换。同时，`git checkout -b "branch name"` 可以直接创建一个新的分支并切换到该分支。
 
 ## 任务
 

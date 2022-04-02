@@ -1,4 +1,4 @@
-openEuler Playground课程通过创建course-content文件来进行组织，采用JSON格式，course-content文件用来定义哪些章节需要被包含在本课程内以及各章节的顺序。
+openEuler MoocStudio课程通过创建course-content文件来进行组织，采用JSON格式，course-content文件用来定义哪些章节需要被包含在本课程内以及各章节的顺序。
 
 
 ## 克隆示例

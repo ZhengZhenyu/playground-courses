@@ -1,4 +1,4 @@
-一个openEuler Playground章节中所包含的内容通过一系列的Markdown文件、Bash脚本以及JSON文件进行描述和组织。
+一个openEuler MoocStudio章节中所包含的内容通过一系列的Markdown文件、Bash脚本以及JSON文件进行描述和组织。
 
 ## Task
 
