@@ -4,4 +4,4 @@
 
 执行 `[[cd /home/coder/git-101/workspace/project_1/]]{{RUN}}` 进入本章工作目录
 
-执行 ``[[git init]]{{RUN}}`` 在当前目录下初始化Git仓库
+执行 `[[git init]]{{RUN}}` 在当前目录下初始化Git仓库
