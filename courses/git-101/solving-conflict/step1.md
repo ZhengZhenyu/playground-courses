@@ -9,7 +9,7 @@ NOTE: 本章节工作依赖前一章节所作操作，请确保《第三章：�
 
 执行 `[[cd /home/coder/git-101/workspace/project_2]]{{RUN}}` 进入工作目录。
 
-执行 `[[git branch new_branch">git branch new_branch]]{{RUN}}` 创建一个新的分支 `new_branch`。
+执行 `[[git branch "new_branch"]]{{RUN}}` 创建一个新的分支 `new_branch`。
 
 执行 `[[git branch]]{{RUN}}` 查看所有分支。
 

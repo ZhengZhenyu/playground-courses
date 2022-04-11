@@ -4,4 +4,4 @@
 
 ## 任务
 
-通过 `[[git checkout -b "branch name"]]{{RUN}}` 来创建一个分支并切换到该分支进行开发(`" "`中内容根据实际情况替换)。
+通过 `[[git checkout -b ]]{{PRINT}}"branch name"` 来创建一个分支并切换到该分支进行开发(`" "`中内容根据实际情况替换)。
