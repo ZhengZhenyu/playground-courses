@@ -11,4 +11,4 @@
 
 `[[git add .]]{{RUN}}`
 
-`[[git commit -m]]{{PRINT}} <commit message>`
+`[[git commit -m]]{{PRINT}} "commit message"`
