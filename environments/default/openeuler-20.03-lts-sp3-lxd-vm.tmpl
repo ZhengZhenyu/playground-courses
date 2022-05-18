@@ -1,0 +1,52 @@
+apiVersion: cs.opensourceways.com/v1alpha1
+kind: CodeServer
+metadata:
+  name: {{ .Name }}
+  namespace: default
+spec:
+  connectProbe: /active-time
+  egressBandwidth: 100k
+  envs:
+  - name: GOTTY_ONLY_ENABLE_BACKEND_WS_SERVER
+    value: "false"
+  - name: DISABLE_AUTO_UPDATE
+    value: "true"
+  - name: GOTTY_CREDENTIAL
+    value: {{ .NamePassword }}
+  - name: GOTTY_MAX_CONNECTION
+    value: "10"
+  - name: COMMUNITY_EMAIL
+    value: {{ .ContactEmail }}
+  - name: GOTTY_WS_ORIGIN
+    value: .*
+  - name: GOTTY_PERMIT_WRITE
+    value: "true"
+  - name: GOTTY_PROCESS_WORKING_DIR
+    value: "/home/coder"
+  - name: LAUNCHER_INSTANCE_PROFILES
+    value: virtualmachine
+  - name: LAUNCHER_INSTANCE_TYPE
+    value: virtual-machine
+  - name: LAUNCHER_IMAGE_ALIAS
+    value: makepackage-openeuler20.03-lts-sp3-vm-x86
+  - name: LAUNCHER_DEVICE_NAME
+    value: enp5s0
+  - name: TERM
+    value: xterm
+  image: opensourceway/playground-lxc-launcher:sha-6674325
+  inactiveAfterSeconds: 0
+  ingressBandwidth: 10M
+  privileged: false
+  readinessProbe:
+    httpGet:
+      path: /active-time
+      port: 80
+    initialDelaySeconds: 20
+    periodSeconds: 3
+    timeoutSeconds: 3
+  recycleAfterSeconds: 7200
+  runtime: lxd
+  storageName: default
+  storageSize: 10Gi
+  subdomain: {{ .Subdomain }}
+  workspaceLocation: /workspace
