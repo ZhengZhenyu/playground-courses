@@ -20,6 +20,6 @@
     }
   },
   "backend": {
-    "image_id": "openeuler-20.03-lts-sp3"
+    "image_id": "openeuler-20.03-lts-sp3-lxd-vm"
   }
 }
