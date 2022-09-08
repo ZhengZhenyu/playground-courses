@@ -16,6 +16,11 @@
         "status": ["online", "test"]
       },
       {
+        "id": "4",
+        "content_dir": "en_playground",
+        "status": ["online", "test"]
+      },
+      {
         "id": "99",
         "content_dir": "create-courses-101",
         "status": ["online", "test"]

@@ -1,0 +1,16 @@
+{
+    "title": "openEuler Playground: Experiencing openEuler in your browser",
+    "description": "openEuler Playground: openEuler Playground: Experiencing openEuler in your browser",
+    "logo": "./assets/logo.png",
+    "poster": "./assets/poster.png",
+    "cover": "./assets/cover.png",
+    "container_live_time": "120",
+    "chapters": [
+      {
+        "content_dir": "playground",
+        "title": "openEuler Playground: openEuler Playground: Experiencing openEuler in your browser",
+        "description": "openEuler Playground: openEuler Playground: Experiencing openEuler in your browser",
+        "estimated_time": "120 min"
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+  "title": "openEuler Playground: Experiencing openEuler in your browser",
+  "description": "Experiencing openEuler in your browser",
+  "details": {
+    "steps": [
+      {
+        "title": "Experiencing openEuler in your browser",
+        "md_file": "step1.md"
+      }
+    ],
+    "introduction": {
+      "md_file": "intro.md"
+    },
+    "finish": {
+      "md_file": "finish.md"
+    }
+  },
+  "backend": {
+    "image_id": "openeuler-20.03-lts-sp3-lxd-vm"
+  }
+}
